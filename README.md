@@ -16,6 +16,7 @@ function enqueue_contact_form_styles() {
     wp_enqueue_style('contact-form-style', get_stylesheet_uri());
 }
 add_action('wp_enqueue_scripts', 'enqueue_contact_form_styles'); 
+```
 
 ## Usage
 Simply place the HTML code in your desired location within your website or application. The form will automatically adapt to different screen sizes and devices.
