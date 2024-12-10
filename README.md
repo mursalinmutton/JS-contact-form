@@ -1,4 +1,4 @@
-## Responsive Contact Form
+## Responsive JavaScript Contact Form
 A simple, responsive contact form designed for easy integration into websites and web applications.
 
 ## Features
