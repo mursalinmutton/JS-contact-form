@@ -10,7 +10,8 @@ Clear, intuitive interface
 ## Installation
 1. Copy the entire HTML code into your desired location in your website or application.
 2. Enqueue the necessary stylesheets in your WordPress theme or child theme:
-'''bash
+   
+```bash
 function enqueue_contact_form_styles() {
     wp_enqueue_style('contact-form-style', get_stylesheet_uri());
 }
