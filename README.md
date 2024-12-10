@@ -6,14 +6,11 @@ Fully responsive design
 Includes fields for name, email, phone number, and message
 Validated form inputs
 Clear, intuitive interface
-Installation
+
+## Installation
 1. Copy the entire HTML code into your desired location in your website or application.
-2. Ensure you have the following script loaded in your HTML file:
-
-<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
-
-3. Enqueue the necessary stylesheets in your WordPress theme or child theme:
-
+2. Enqueue the necessary stylesheets in your WordPress theme or child theme:
+'''bash
 function enqueue_contact_form_styles() {
     wp_enqueue_style('contact-form-style', get_stylesheet_uri());
 }
